@@ -1,6 +1,6 @@
 const amqp = require('amqplib/callback_api');
 const axios = require('axios')
-const scheduleURL = 'http://34.135.208.130:8000'
+const scheduleURL = 'http://35.222.42.133:8000'
 
 
 amqp.connect('amqp://146.148.79.102:5672', function(error0, connection) {
