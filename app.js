@@ -3,7 +3,7 @@ const axios = require('axios')
 const scheduleURL = 'http://35.222.42.133:8000'
 
 
-amqp.connect('amqp://146.148.79.102:5672', function(error0, connection) {
+amqp.connect('amqp://35.223.72.88:5672', function(error0, connection) {
     if (error0) {
         throw error0;
     }
