@@ -1,9 +1,9 @@
 const amqp = require('amqplib/callback_api');
 const axios = require('axios')
-const scheduleURL = 'http://35.222.42.133:8000'
+const scheduleURL = 'http://tusia-consultahorario-ms-service.default.svc.cluster.local:8000'
 
 
-amqp.connect('amqp://35.223.72.88:5672', function(error0, connection) {
+amqp.connect('amqp://10.208.11.45:5672', function(error0, connection) {
     if (error0) {
         throw error0;
     }
